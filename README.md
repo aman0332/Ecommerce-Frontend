@@ -15,4 +15,4 @@ Basic Ecommerce Website (Frontend)
 <img width="100%" src="screenshot/ss3.png" >
 
 
-<img width="100%" src="screenshot/ss5.png" >
+<img width="100%" src="screenshot/ss4.png" >
