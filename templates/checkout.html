@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ituple</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../css/lib/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/lib/sweetalert.css">
+	<link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<script src="../js/lib/jquery-3.1.1.min.js"></script>
+	<script src="../js/lib/bootstrap.min.js"></script>
+	<script src="../js/lib/sweetalert.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/source/mystyle.css">
+	
+</head>
+<body onload="checkonload()">
+	<div class="container-fluid">
+		<div class="row mb--10">
+			<nav class="nav navbar-default box-sh">
+				<div class="container-fluid">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                       <span class="sr-only">Toggle navigation</span>
+                       <span class="icon-bar"></span>
+                       <span class="icon-bar"></span>
+                       <span class="icon-bar"></span>
+                    </button>
+                    <div class="navbar-header">
+						<a class="navbar-brand" href="landing - Copy (2).html"><img class="logo" src="../images/logo.png" width="212px" class="img-responsive"></a>
+					</div>
+                    <div class="navbar-collapse collapse" id="navbar">
+						
+						<ul class="nav navbar-nav navbar-right">
+							<li class="form-group pt-10">
+								<input type="text" size="35" placeholder="Search" class="form-control">
+								<span class="glyphicon glyphicon-search color-wt search-glyf"></span>
+							</li>			      
+							<li><a href="#" class="font-15"><b class="color-wt">Login</b><span class="glyphicon glyphicon-user color-wt"></span></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+		<div class="chekout-content">
+		<div class="container wid-100"><br>
+			<h4><b>PROCEED TO PLACE YOUR ORDER</b></h4>
+			<div id="checkout-data"></div>
+			<h3 class="pull-right mr-200"><span><b>Total Price : </b></span><span id="totalprice"></span></h3><br><br><br><hr>
+		</div>
+		<div class="container wid-100">
+			<div class="row">
+				<h3><b>DELIVERY ADDRESS</b></h3><br>
+				<form class="form-horizontal">
+					<div class="form-group">
+						<label class="col-sm-2 control-lable">NAME :</label>
+						<div class="col-sm-7">
+							<input type="text" placeholder="Name" class="form-control">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-lable">STREET ADDRESS :</label>
+						<div class="col-sm-7">
+							<input type="text" placeholder="Address" class="form-control">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-lable">LANDMARK :</label>
+						<div class="col-sm-7">
+							<input type="text" placeholder="Landmark" class="form-control">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-lable">CITY :</label>
+						<div class="col-sm-7">
+							<input type="text" placeholder="City" class="form-control">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-lable">STATE :</label>
+						<div class="col-sm-7">
+							<input type="text" placeholder="State" class="form-control">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-lable">COUNTRY :</label>
+						<div class="col-sm-7">
+							<input disabled="disabled" type="text" value="INDIA" class="form-control">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-lable">PIN CODE :</label>
+						<div class="col-sm-7">
+							<input type="text" placeholder="Pin" class="form-control">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-lable">CONTACT NO. :</label>
+						<div class="col-sm-7">
+							<input type="text" placeholder="Contact" class="form-control">
+						</div>
+					</div>
+					<a href="#" class="btn btn-primary pull-right mr-200 swalaalert">PLACE YOUR ORDER</a>
+				</form>	
+			</div>
+		</div>
+		<br>
+		</div>
+		<div class="row text-center">
+		</div>
+		<div class="box-sh-2">
+			<div class="container-fluid">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3">
+							<div class="pad-15">
+								<h5 class="pad-t-b-10">POLICY INFO</h5>
+								<div class="color-grey">
+									<h6 class="hover-blue">Privacy Policy</h6>
+									<h6 class="hover-blue">Terms of Sale</h6>
+									<h6 class="hover-blue">Terms of Use</h6>
+									<h6 class="hover-blue">Takedown Policy</h6>
+									<h6 class="hover-blue">CSR Policy</h6>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="pad-15">
+								<h5 class="pad-t-b-10">COMPANY</h5>
+								<div class="color-grey">
+									<h6 class="hover-blue">About Us</h6>
+									<h6 class="hover-blue">Core Values</h6>
+									<h6 class="hover-blue">Careers</h6>
+									<h6 class="hover-blue">Blog</h6>
+									<h6 class="hover-blue">Engineering</h6>
+									<h6 class="hover-blue">Sitemap</h6>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="pad-15">
+								<h5 class="pad-t-b-10">iTuple BUSINESS</h5>
+								<div class="color-grey">
+									<h6 class="hover-blue">Sell on iTuple</h6>
+									<h6 class="hover-blue">Advertise on iTuple</h6>
+									<h6 class="hover-blue">Deal of the Day</h6>
+									<h6 class="hover-blue">New Year Offers</h6>
+									<h6 class="hover-blue">iTuple Gold</h6>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="pad-15">
+								<h5 class="pad-t-b-10">NEED HELP?</h5>
+								<div class="color-grey">
+									<h6 class="hover-blue">FAQ</h6>
+									<h6 class="hover-blue">Contact Us</h6>
+								</div>
+							</div>
+						</div>
+					</div>
+					<h5>Copyright @ 2017, iTuple Technologies</h5>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+<script type="text/javascript" src="../js/source/myjquery.js"></script>
+</body>
+</html>
